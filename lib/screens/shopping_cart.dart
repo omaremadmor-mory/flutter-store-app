@@ -67,7 +67,7 @@ class ShoppingCart extends StatelessWidget {
                           context.read<MyBloc>().add(Removeproduct(product: p));
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
-                              content: Text("${p.name} تم حذفه من السلة ❌"),
+                              content: Text("${p.name}تم حذفه من السلة"),
                               duration: Duration(seconds: 2),
                             ),
                           );

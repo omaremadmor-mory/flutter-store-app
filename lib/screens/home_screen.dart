@@ -5,6 +5,7 @@ import 'package:viro_store2/bloc/my_bloc.dart';
 import 'package:viro_store2/models/data.dart';
 import 'package:viro_store2/models/producted_hive.dart';
 import 'package:viro_store2/screens/screen_deatlies.dart';
+import 'package:viro_store2/screens/setting_page.dart';
 import 'package:viro_store2/screens/shopping_cart.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -168,18 +169,32 @@ class _HomeScreenState extends State<HomeScreen> {
               onTap: () {
                 setState(() {
                   isSearching = true;
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()),
+                  );
                 });
               },
             ),
             ListTile(
               leading: Icon(Icons.shopping_cart),
-              title: Text("Cart"),
-              onTap: () {},
+              title: Text("Shopping cart"),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ShoppingCart()),
+                );
+              },
             ),
             ListTile(
               leading: Icon(Icons.settings),
               title: Text("Settings"),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SettingsPage()),
+                );
+              },
             ),
           ],
         ),
