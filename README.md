@@ -1,16 +1,36 @@
-# viro_store2
+# 🛒 Flutter Store App
 
-A new Flutter project.
+A simple store application built with **Flutter**, using **BLoC** for state management and **Hive** for local data storage.  
+The main goal of this project is to demonstrate my skills in building UI, managing state, and integrating with local storage.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Display products.  
+- Add products to the cart.  
+- Remove products from the cart.  
+- Save data using Hive (data persists after closing the app).  
+- State management with BLoC.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- [Flutter](https://flutter.dev/)  
+- [BLoC](https://bloclibrary.dev/#/)  
+- [Hive](https://docs.hivedb.dev/)  
+
+---
+
+## 📌 Notes
+
+- This app is for learning and demonstration purposes only (not production-ready).  
+- The code can be extended with more features (e.g., quantity, fake checkout, improved UI).  
+
+---
+
+## 👨‍💻 Developer
+
+- **Name:** Omar  
+- **GitHub:** [omaremadmor-mory](https://github.com/omaremadmor-mory)  
